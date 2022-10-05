@@ -12,8 +12,6 @@ const diagonalSort = function(mat) {
     let swaps = 0;
     for(let i = 0; i < mat.length - 1; i++) {
         for(let j = 0; j < mat[0].length - 1; j++) {
-            console.log("1:", mat[i][j])
-            console.log("2:", mat[i + 1][j + 1])
             if(mat[i][j] > mat[i + 1][j + 1]) {
                 let temp = mat[i][j];
                 mat[i][j] = mat[i + 1][j + 1];
