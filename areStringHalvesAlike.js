@@ -31,7 +31,6 @@ const halvesAreAlike = function(s) {
         }
     }
 
-    console.log(aCount, bCount)
     return aCount === bCount
 };
 
