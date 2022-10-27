@@ -18,6 +18,7 @@
 const halvesAreAlike = function(s) {
     const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
+
     let aCount = 0;
     let bCount = 0;
 
