@@ -18,7 +18,7 @@ const threeSum = function(nums, target) {
 
     console.log(nums)
 
-    for(let i = 0; i < nums.length - 1; i++) {
+    for(let i = 0; i < nums.length - 2; i++) {
 
         if(i > 0 && nums[i] === nums[i - 1]) continue
 
@@ -50,4 +50,5 @@ const threeSum = function(nums, target) {
 let nums1 = [ -1, 0, 1, 2, -1, -4 ]
 let nums2 = [ -3, -2, -1, 0, 1, 2, 3, 4 ]
 let nums3 = [ -2, 0, 0, 2, 2 ]
-console.log(threeSum(nums3, 1))
+let nums4 = [ 2, 2, 2 ,2 ]
+console.log(threeSum(nums4, 6))
